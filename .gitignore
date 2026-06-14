@@ -1,0 +1,15 @@
+# Dependencies
+frontend/node_modules/
+backend/__pycache__/
+backend/*.pyc
+
+# Environment variables (RAHASIA)
+frontend/.env
+backend/.env
+
+# Build
+frontend/build/
+frontend/dist/
+
+# Logs
+*.log
