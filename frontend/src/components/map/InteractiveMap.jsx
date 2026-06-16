@@ -3,7 +3,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useMapStyle } from "../../hooks/useMapStyle";
 import { useFavoritesContext } from "../../context/FavoritesContext";
-import { kulinerData } from "../../data/kulinerData";
+import { kulinerData } from "../../data/UMKMData";
 import MapStyleSwitcher from "./MapStyleSwitcher";
 
 const foodEmojis = {
