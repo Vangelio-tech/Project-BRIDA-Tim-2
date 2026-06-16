@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Star, MapPin, BadgeCheck } from "lucide-react";
-import { kulinerData } from "../data/kulinerData";
+import { kulinerData } from "../data/UMKMData";
 
 const UMKMPage = () => {
   const umkm = kulinerData.filter((k) => k.isUmkm);

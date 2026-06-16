@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 import { MapPin, ChevronDown, Heart } from "lucide-react";
-import { kulinerData, categories } from "../data/kulinerData";
-import KulinerCard from "../components/kuliner/KulinerCard";
+import { kulinerData, categories } from "../data/UMKMData";
+import KulinerCard from "../components/umkm/UMKMCard";
 
 const PARTICLES = Array.from({ length: 20 }, (_, i) => ({
   id: i,

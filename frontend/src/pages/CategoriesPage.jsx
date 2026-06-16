@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { motion } from "framer-motion";
-import { kulinerData, categories } from "../data/kulinerData";
-import KulinerCard from "../components/kuliner/KulinerCard";
+import { kulinerData, categories } from "../data/UMKMData";
+import KulinerCard from "../components/umkm/UMKMCard";
 
 const CategoriesPage = () => {
   const [params] = useSearchParams();
