@@ -21,7 +21,7 @@ const CategoriesPage = () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl font-bold text-gray-900 mb-6"
         >
-          Kategori Kuliner
+          Kategori Produk UMKM
         </motion.h1>
 
         <div className="flex flex-wrap gap-3 mb-8">
@@ -43,7 +43,7 @@ const CategoriesPage = () => {
         </div>
 
         <p className="text-gray-400 text-sm mb-6">
-          {filtered.length} tempat ditemukan
+          {filtered.length} UMKM ditemukan
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

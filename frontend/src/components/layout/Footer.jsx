@@ -7,11 +7,11 @@ const Footer = () => (
       <div>
         <div className="flex items-center gap-2 mb-3">
           <UtensilsCrossed size={20} className="text-orange-400" />
-          <span className="font-bold text-xl text-white">KulinerKubar</span>
+          <span className="font-bold text-xl text-white">SAPAKUBAR</span>
         </div>
         <p className="text-sm text-amber-200">
-          Platform pencarian kuliner UMKM lokal Kutai Barat untuk mendukung
-          perekonomian daerah.
+          Platform pencarian UMKM lokal Kutai Barat untuk mendukung perekonomian
+          berkelanjutan daerah.
         </p>
       </div>
 
@@ -20,9 +20,9 @@ const Footer = () => (
         <div className="flex flex-col gap-2 text-sm">
           {[
             ["Beranda", "/"],
-            ["Peta Kuliner", "/map"],
-            ["Kategori", "/categories"],
-            ["UMKM", "/umkm"],
+            ["Peta UMKM", "/map"],
+            ["Kategori Produk", "/categories"],
+            ["Direktori UMKM", "/umkm"],
             ["Favorit", "/favorites"],
           ].map(([label, to]) => (
             <Link
@@ -46,7 +46,7 @@ const Footer = () => (
     </div>
 
     <div className="mt-8 pt-6 border-t border-amber-800 text-center text-xs text-amber-300">
-      © 2024 KulinerKubar. Mendukung Ekonomi Lokal Kutai Barat.
+      © 2026 SAPAKUBAR. Mendukung Ekonomi Lokal Kutai Barat.
     </div>
   </footer>
 );

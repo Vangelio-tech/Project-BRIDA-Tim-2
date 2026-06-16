@@ -19,7 +19,7 @@ const FavoritesPage = () => {
         >
           <h1 className="text-4xl font-bold text-gray-900 flex items-center gap-3">
             <Heart className="text-red-500 fill-red-500" size={32} />
-            Favorit Saya
+            UMKM Favorit Saya
           </h1>
           <p className="text-gray-500 mt-1">{favItems.length} UMKM tersimpan</p>
         </motion.div>

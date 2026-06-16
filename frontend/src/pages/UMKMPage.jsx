@@ -19,8 +19,8 @@ const UMKMPage = () => {
               <h1 className="text-4xl font-bold">Direktori UMKM</h1>
             </div>
             <p className="text-orange-100">
-              Mendukung {umkm.length}+ usaha mikro, kecil, dan menengah lokal
-              Kutai Barat
+              Mendukung {umkm.length}+ pengrajin dan pelaku usaha mikro, kecil,
+              dan menengah lokal Kutai Barat
             </p>
           </motion.div>
         </div>

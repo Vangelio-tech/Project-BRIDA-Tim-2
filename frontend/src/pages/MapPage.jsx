@@ -28,7 +28,7 @@ const MapPage = () => {
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Cari kuliner..."
+              placeholder="Cari UMKM atau produk..."
               className="w-full pl-9 pr-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:outline-none focus:border-orange-400"
             />
           </div>
@@ -60,7 +60,7 @@ const MapPage = () => {
           </select>
 
           <div className="text-xs text-gray-500 mt-2">
-            {results.length} tempat ditemukan
+            {results.length} UMKM ditemukan
           </div>
         </div>
 

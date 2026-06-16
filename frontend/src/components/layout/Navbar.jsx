@@ -9,9 +9,9 @@ const Navbar = () => {
 
   const links = [
     { to: "/", label: "Beranda" },
-    { to: "/map", label: "Peta Kuliner" },
-    { to: "/categories", label: "Kategori" },
-    { to: "/umkm", label: "UMKM" },
+    { to: "/map", label: "Peta UMKM" },
+    { to: "/categories", label: "Kategori Produk" },
+    { to: "/umkm", label: "Direktori UMKM" },
     { to: "/favorites", label: "Favorit" },
   ];
 
@@ -22,9 +22,7 @@ const Navbar = () => {
           <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
             <UtensilsCrossed size={16} className="text-white" />
           </div>
-          <span className="font-bold text-xl text-orange-600">
-            KulinerKubar
-          </span>
+          <span className="font-bold text-xl text-orange-600">SAPAKUBAR</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-6">

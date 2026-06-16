@@ -6,7 +6,7 @@ import KulinerCard from "../components/umkm/UMKMCard";
 
 const PARTICLES = Array.from({ length: 20 }, (_, i) => ({
   id: i,
-  emoji: ["🍛", "☕", "🦐", "🌿", "🥢", "🍌", "🍜", "🌶️"][i % 8],
+  emoji: ["🧺", "🧵", "⚔️", "💎", "🪵", "🍘", "🏺", "🪡"][i % 8],
   x: Math.random() * 100,
   y: Math.random() * 100,
   duration: 3 + Math.random() * 4,
@@ -55,8 +55,7 @@ const HomePage = () => {
             transition={{ delay: 0.4 }}
             className="text-5xl md:text-7xl font-bold text-white leading-tight mb-4"
           >
-            Temukan Cita Rasa{" "}
-            <span className="text-amber-300">Kutai Barat</span>
+            Temukan UMKM <span className="text-amber-300">Kutai Barat</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -64,8 +63,8 @@ const HomePage = () => {
             transition={{ delay: 0.6 }}
             className="text-orange-100 text-lg md:text-xl mb-8 max-w-2xl mx-auto"
           >
-            Jelajahi kuliner UMKM lokal — dari warung tradisional hingga cafe
-            modern, semua ada di Kutai Barat
+            Jelajahi produk UMKM lokal — dari anyaman anjat, tenun doyo, hingga
+            ukiran khas Kutai Barat
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -112,10 +111,10 @@ const HomePage = () => {
       <section className="py-16 bg-orange-600">
         <div className="max-w-5xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { label: "Kuliner Terdaftar", value: "200+" },
-            { label: "UMKM Lokal", value: "150+" },
+            { label: "UMKM Terdaftar", value: "200+" },
+            { label: "Produk Lokal", value: "500+" },
             { label: "Kecamatan", value: "16" },
-            { label: "Ulasan Pengguna", value: "2.500+" },
+            { label: "Pengrajin Aktif", value: "150+" },
           ].map((s, i) => (
             <motion.div
               key={s.label}
@@ -139,7 +138,7 @@ const HomePage = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-4xl font-bold text-center text-gray-900 mb-10"
           >
-            Jelajahi Berdasarkan Kategori
+            Jelajahi Berdasarkan Kategori Produk
           </motion.h2>
           <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
             {categories.slice(1).map((cat, i) => (
@@ -171,7 +170,7 @@ const HomePage = () => {
               whileInView={{ opacity: 1, x: 0 }}
               className="text-4xl font-bold text-gray-900"
             >
-              Kuliner Unggulan
+              UMKM Unggulan
             </motion.h2>
             <Link
               to="/map"
@@ -206,7 +205,7 @@ const HomePage = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-4xl font-bold text-white mb-4"
           >
-            Punya Usaha Kuliner?
+            Punya Usaha UMKM?
           </motion.h2>
           <p className="text-orange-100 mb-6">
             Daftarkan usaha UMKM kamu dan jangkau lebih banyak pelanggan di
