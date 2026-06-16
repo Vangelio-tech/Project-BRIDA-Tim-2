@@ -1,8 +1,8 @@
 import InteractiveMap from "../components/map/InteractiveMap";
 import { useSearch } from "../hooks/useSearch";
 import { Search } from "lucide-react";
-import { categories, districts } from "../data/kulinerData";
-import KulinerCard from "../components/kuliner/KulinerCard";
+import { categories, districts } from "../data/UMKMData";
+import KulinerCard from "../components/umkm/UMKMCard";
 
 const MapPage = () => {
   const {
