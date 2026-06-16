@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { kulinerData } from "../data/kulinerData";
+import { kulinerData } from "../data/UMKMData";
 
 export const useSearch = () => {
   const [query, setQuery] = useState("");
